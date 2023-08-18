@@ -1,0 +1,110 @@
+[
+    {
+        "table": "[[\"year\", \"face_amount_of_notes_receivable\", \"asset_impairment_loss\", \"investment_loss\"], [\"2013\", 150000, 12000, 5000], [\"2014\", 180000, 18000, 6000], [\"2015\", 200000, 25000, 8000], [\"2016\", 220000, 32000, 10000], [\"2017\", 250000, 40000, 12000], [\"2018\", 280000, 50000, 15000]]",
+        "text": "The company's revenue has shown a consistent growth over the years. In 2013, the revenue stood at $80000 and increased to $90000 in 2014. In the following year, the revenue further rose to $110000, reflecting a steady upward trend. The company's performance continued to improve in 2016, with revenue reaching $120000. In 2017, there was a significant surge in revenue, surpassing the $150000 mark. Finally, in 2018, the company achieved its highest revenue figure yet, amounting to $180000.\n\nHowever, the company also experienced an increase in business costs over the same period. In 2013, the business costs amounted to $60000. The following year, it rose to $70000, while in 2015, it reached $80000. In line with the growth in revenue, the business costs rose to $90000 in 2016. The upward trend continued with business costs reaching $100000 in 2017. Finally, in 2018, the company's business costs further increased to $120000.\n\nThese financial figures highlight the company's strong revenue growth, which has outpaced the increase in business costs. It indicates the company's ability to generate higher revenues while effectively managing its costs. This trend is indicative of the company's overall financial strength and its potential for future growth and profitability.",
+        "text_value": {
+            "revenue": {
+                "2013": 80000,
+                "2014": 90000,
+                "2015": 110000,
+                "2016": 120000,
+                "2017": 150000,
+                "2018": 180000
+            },
+            "business_cost": {
+                "2013": 60000,
+                "2014": 70000,
+                "2015": 80000,
+                "2016": 90000,
+                "2017": 100000,
+                "2018": 120000
+            }
+        }
+    },
+    {
+        "table": "[[\"year\",\"interest_on_notes_receivable\",\"expenses\"],[\"2013\",150000,12000],[\"2014\",180000,18000]]",
+        "text": "XYZ Company's financial statement for the years 2011 to 2015 reveals a steady growth in revenue. In 2011, the company generated $150000 in revenue, which increased to $175000 in 2012. The upward trend continued in 2013 with revenue reaching $200000, followed by a further increase to $225000 in 2014. Finally, in 2015, the company achieved a significant milestone with revenue reaching $250000.\n\nTo support this revenue growth, XYZ Company also maintained a disciplined approach to managing its business costs. In 2011, the company incurred $100000 in business costs, which increased to $125000 in 2012. In 2013, the business costs further escalated to $150000, reflecting the company's investment in expansion and operational efficiency. Additionally, in 2014, the company's business costs rose to $175000 as it continued to focus on delivering high-quality products and services. Finally, in 2015, XYZ Company's business costs amounted to $200000, demonstrating its commitment to maintaining a sustainable and profitable operation.\n\nOverall, XYZ Company's financial statement highlights its consistent revenue growth over the years, further bolstered by a strategic approach to managing its business costs. These financial indicators position the company for continued success and serve as a testament to its strong financial performance.",
+        "text_value": {
+            "revenue": {
+                "2011": 150000,
+                "2012": 175000,
+                "2013": 200000,
+                "2014": 225000,
+                "2015": 250000
+            },
+            "business_cost": {
+                "2011": 100000,
+                "2012": 125000,
+                "2013": 150000,
+                "2014": 175000,
+                "2015": 200000
+            }
+        }
+    },
+    {
+        "table": "[[\"Year\", \"Gross Margins\", \"Total Profits\", \"Income\"],\n[\"2019\", 150000, 30000, 300000],\n[\"2020\", 170000, 35000, 350000],\n[\"2021\", 180000, 40000, 400000]]",
+        "text": "Financial Statement for the Year Ended December 31, 2021\n\nIncome:\n2019: $300000\n2020: $350000\n2021: $400000\n\nExpenses:\n2019: $150000\n2020: $180000\n2021: $220000\n\nDuring the year ended December 31, 2021, our total income amounted to $400000, representing an increase of $50000 compared to the previous year. This growth can be attributed to various factors, such as increased sales and improved operational efficiency.\n\nHowever, in order to generate this income, we incurred total expenses of $220000 during the year, showing an increase of $40000 from 2020. These expenses include production costs, employee salaries, marketing expenses, and other necessary expenditures to support the growth of our business.\n\nAnalyzing the financial performance of the company over the past three years, we can observe a positive trend. Our income has steadily increased from $300000 in 2019 to $400000 in 2021. Similarly, our expenses have also grown from $150000 in 2019 to $220000 in 2021.\n\nDespite the increase in expenses, we have managed to maintain a healthy profit margin. Our net income for the year ended December 31, 2021, after deducting expenses from income, amounted to $180000. This represents a net profit margin of 45% ($180000 income / $400000 revenue).\n\nIn conclusion, our financial statement reflects a positive financial performance for the year ended December 31, 2021. We have experienced steady growth in both income and expenses, indicating the success of our business strategies. Moving forward, we will continue to focus on improving our cost management and exploring new opportunities to further enhance our financial results.",
+        "text_value": {
+            "expenses": {
+                "2019": 150000,
+                "2020": 180000,
+                "2021": 220000
+            },
+            "income": {
+                "2019": 300000,
+                "2020": 350000,
+                "2021": 400000
+            }
+        }
+    },
+    {
+        "table": "[[\"year\",\"maturity_value_of_notes_receivable\",\"investment_loss\"],[\"2017\",20000,5000],[\"2018\",30000,8000],[\"2019\",25000,10000]]",
+        "text": "Based on the provided data, let's generate a random financial statement:\n\n2017 Financial Statement\n-----------------------\nIncome: $10000\nExpenses: $190000\n\nIn the fiscal year 2017, our company generated an income of $10000, while incurring expenses amounting to $190000. As a result, we experienced a net loss of $180000 for the year.\n\n2018 Financial Statement\n-----------------------\nIncome: $70000\nExpenses: $295000\n\nFor the fiscal year 2018, our company recorded an income of $70000. However, our expenses amounted to $295000, resulting in a net loss of $225000.\n\n2019 Financial Statement\n-----------------------\nIncome: $120000\nExpenses: $250000\n\nIn the year 2019, our company experienced an increase in income, reaching $120000. However, this improvement was overshadowed by our expenses, which totaled $250000. Consequently, we ended the year with a net loss of $130000.\n\nPlease note that the aforementioned financial statement reflects the income and expenses for the respective years based on the provided data.",
+        "text_value": {
+            "expenses": {
+                "2017": 190000,
+                "2018": 295000,
+                "2019": 250000
+            },
+            "income": {
+                "2017": 10000,
+                "2018": 70000,
+                "2019": 120000
+            }
+        }
+    },
+    {
+        "table": "Here is the randomly generated financial statement table snippet:\n\n[\n  [\"year\", \"fair_value_variation\", \"income_tax_rate\", \"face_amount_of_notes_receivable\"],\n  [\"2013\", 150000, 0.25, 12000],\n  [\"2014\", 180000, 0.20, 18000]\n]",
+        "text": "In the fiscal year 2009, our company generated a total revenue of $150000, while incurring business costs amounting to $80000. This resulted in a net profit of $70000. \n\nMoving on to 2010, our company experienced growth, with the revenue increasing to $175000. However, business costs also increased to $90000, resulting in a net profit of $85000.\n\nThe year 2011 proved to be even more prosperous for our company, with the revenue reaching $220000. Correspondingly, business costs also escalated to $110000. Despite the higher costs, our net profit for the year stood at $110000.\n\nFinally, in 2012, our company achieved another milestone, with the revenue climbing to $265000. However, the growing success also meant higher business costs, which amounted to $135000. After deducting the costs, our net profit for the year amounted to $130000.\n\nOverall, our financial performance in these four years reflected a positive growth trend. We managed to increase our revenue consistently, which in turn contributed to higher net profits. However, it is important to continue monitoring and managing our business costs to ensure continued success and profitability in the future.",
+        "text_value": {
+            "revenue": {
+                "2009": 150000,
+                "2010": 175000,
+                "2011": 220000,
+                "2012": 265000
+            },
+            "business_cost": {
+                "2009": 80000,
+                "2010": 90000,
+                "2011": 110000,
+                "2012": 135000
+            }
+        }
+    },
+    {
+        "table": "[[\"year\",\"tax\",\"operating_profit\"],[\"2016\",60000,100000],[\"2017\",76000,180000],[\"2018\",118000,225000]]",
+        "text": "During the fiscal years 2016, 2017, and 2018, our company has achieved remarkable growth in revenue. In 2016, our revenue amounted to $150000, indicating a substantial increase from the previous year. Our diligent efforts and strategic planning further led to a noteworthy rise in revenue, reaching $190000 in 2017. This represented a significant boost, showcasing our ability to adapt and expand within the market.\n\nDespite facing challenges, we successfully managed our business costs and ensured efficient operations. In 2016, our business costs amounted to $50000, demonstrating a strong commitment to resource allocation and optimization. The subsequent year saw a notable decrease in business costs, amounting to $10000. This reduction can be attributed to effective cost management strategies and streamlined operations.\n\nAs we progressed into 2018, our business costs increased to $70000. Although this rise could be attributed to emerging market demands and the need to invest in various operational aspects, it still remained well-managed, ensuring that our financial position remained stable.\n\nOverall, our financial statement clearly illustrates our consistent revenue growth and diligent cost management approach over the three-year period. We remain committed to driving our company forward, leveraging our strengths, and seizing opportunities for sustained success in the future.",
+        "text_value": {
+            "revenue": {
+                "2016": 150000,
+                "2017": 190000,
+                "2018": 295000
+            },
+            "business_cost": {
+                "2016": 50000,
+                "2017": 10000,
+                "2018": 70000
+            }
+        }
+    }
+]

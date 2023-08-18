@@ -1,0 +1,291 @@
+[
+    {
+        "table": [
+            [
+                "year",
+                "revenue",
+                "business_cost",
+                "asset_impairment_loss",
+                "deffered_income_tax"
+            ],
+            [
+                2013,
+                180000,
+                150000,
+                53972,
+                23280
+            ]
+        ],
+        "text": "According to the provided data, the company's revenue has steadily increased from 2013 to 2018, reaching a total of $370,000 in 2018. Similarly, the business cost has also shown a gradual rise over the same period, with a total of $250,000 in 2018. However, it is important to note that these figures do not provide any insights into the company's profitability or other financial metrics.",
+        "table_value": {
+            "revenue": {
+                "2013": 180000,
+                "2014": 210000,
+                "2015": 245000,
+                "2016": 280000,
+                "2017": 320000,
+                "2018": 370000
+            },
+            "business_cost": {
+                "2013": 150000,
+                "2014": 170000,
+                "2015": 190000,
+                "2016": 210000,
+                "2017": 230000,
+                "2018": 250000
+            }
+        }
+    },
+    {
+        "table": [
+            [
+                "year",
+                "revenue",
+                "business_cost",
+                "expected_uesful_life",
+                "gross_profit"
+            ],
+            [
+                2011,
+                150000,
+                80000,
+                81911,
+                27585
+            ],
+            [
+                2012,
+                180000,
+                90000,
+                11020,
+                82271
+            ],
+            [
+                2013,
+                220000,
+                95000,
+                68589,
+                49255
+            ],
+            [
+                2014,
+                190000,
+                85000,
+                57296,
+                20451
+            ],
+            [
+                2015,
+                230000,
+                100000,
+                66032,
+                91283
+            ]
+        ],
+        "text": "According to the financial statement, the revenue for the year 2012 increased by 20% compared to the previous year. This growth can be attributed to various factors such as increased market demand and successful marketing strategies. Additionally, the business costs for the year 2014 decreased by 10% compared to the previous year. This reduction in costs can be attributed to effective cost management and streamlining of operations. Overall, these financial results reflect the company's commitment to growth and efficiency in its operations.",
+        "table_value": {
+            "revenue": {
+                "2011": 150000,
+                "2012": 180000,
+                "2013": 220000,
+                "2014": 190000,
+                "2015": 230000
+            },
+            "business_cost": {
+                "2011": 80000,
+                "2012": 90000,
+                "2013": 95000,
+                "2014": 85000,
+                "2015": 100000
+            }
+        }
+    },
+    {
+        "table": [
+            [
+                "year",
+                "expenses",
+                "income",
+                "maturity_of_notes_receivable",
+                "original_value"
+            ],
+            [
+                2019,
+                250000,
+                50000,
+                71972,
+                5325
+            ],
+            [
+                2020,
+                350000,
+                80000,
+                71868,
+                10018
+            ],
+            [
+                2021,
+                400000,
+                100000,
+                51900,
+                53013
+            ]
+        ],
+        "text": "In 2021, despite our significant increase in income to $100,000, our expenses continued to rise as well, reaching a staggering $400,000. This resulted in a challenging financial year for the company, with our expenses far outweighing our income by $300,000. However, it is important to note that these figures do not reflect the overall financial performance of the business.",
+        "table_value": {
+            "expenses": {
+                "2019": 250000,
+                "2020": 350000,
+                "2021": 400000
+            },
+            "income": {
+                "2019": 50000,
+                "2020": 80000,
+                "2021": 100000
+            }
+        }
+    },
+    {
+        "table": [
+            [
+                "year",
+                "expenses",
+                "income",
+                "impairment_provision",
+                "cost"
+            ],
+            [
+                2017,
+                150000,
+                200000,
+                98847,
+                94281
+            ],
+            [
+                2018,
+                250000,
+                300000,
+                41948,
+                98680
+            ],
+            [
+                2019,
+                350000,
+                400000,
+                56573,
+                80191
+            ]
+        ],
+        "text": "In the years 2017-2019, our expenses grew by 100,000 units, while our income increased by 100,000 units as well. These figures showcase our commitment to maintaining financial stability and optimizing our operations. We continually strive to enhance our financial coverage and generate sustainable growth for our organization.",
+        "table_value": {
+            "expenses": {
+                "2017": 150000,
+                "2018": 250000,
+                "2019": 350000
+            },
+            "income": {
+                "2017": 200000,
+                "2018": 300000,
+                "2019": 400000
+            }
+        }
+    },
+    {
+        "table": [
+            [
+                "year",
+                "revenue",
+                "business_cost",
+                "discount_period",
+                "net_book_value"
+            ],
+            [
+                2009,
+                150000,
+                80000,
+                27991,
+                30119
+            ],
+            [
+                2010,
+                180000,
+                100000,
+                59414,
+                5290
+            ],
+            [
+                2011,
+                220000,
+                120000,
+                5859,
+                70059
+            ],
+            [
+                2012,
+                250000,
+                140000,
+                81896,
+                27076
+            ]
+        ],
+        "text": "\"In 2012, our company experienced significant growth with a revenue of $250,000. However, despite this positive outcome, our business costs also increased to $140,000. We are constantly striving to find effective solutions to reduce these costs and improve our overall financial performance.\"",
+        "table_value": {
+            "revenue": {
+                "2009": 150000,
+                "2010": 180000,
+                "2011": 220000,
+                "2012": 250000
+            },
+            "business_cost": {
+                "2009": 80000,
+                "2010": 100000,
+                "2011": 120000,
+                "2012": 140000
+            }
+        }
+    },
+    {
+        "table": [
+            [
+                "year",
+                "revenue",
+                "business_cost",
+                "credit_impairment_loss",
+                "credit_impairment_loss"
+            ],
+            [
+                2016,
+                250000,
+                150000,
+                30430,
+                68782
+            ],
+            [
+                2017,
+                380000,
+                200000,
+                227,
+                11605
+            ],
+            [
+                2018,
+                480000,
+                280000,
+                18330,
+                65764
+            ]
+        ],
+        "text": "The revenue for the year 2017 increased by $130,000 compared to the previous year, reaching a total of $380,000. This growth can be attributed to strategic business initiatives and increased market demand. Additionally, the business cost in 2018 rose to $280,000, reflecting investment in operational efficiency and expansion. These financial numbers highlight the company's dedication to driving growth and optimizing its financial performance.",
+        "table_value": {
+            "revenue": {
+                "2016": 250000,
+                "2017": 380000,
+                "2018": 480000
+            },
+            "business_cost": {
+                "2016": 150000,
+                "2017": 200000,
+                "2018": 280000
+            }
+        }
+    }
+]
