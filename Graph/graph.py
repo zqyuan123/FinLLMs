@@ -43,7 +43,7 @@ class FormulaGraph:
             target = self.node_dict[key]['target']
             if '*n-1' not in target:
                 num += 1
-        print("公式数量：", num)
+        print("number of formulas：", num)
         return num
 
     def get_node_attr(self, index):

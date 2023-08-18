@@ -5,11 +5,13 @@ import re
 import random
 from time import sleep
 from tqdm import tqdm
+import traceback
+from config import params
 
-proxies = {'http': "http://127.0.0.1:7890", 'https': "http://127.0.0.1:7890"}
+proxies = params.proxies
 openai.proxy = proxies
 ###上面两行是为了在中国用，VPN相关
-openai.api_key = "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"
+openai.api_key = params.api_key
 
 variable_list_all = ['income', 'expenses', 'revenue', 'business_cost', 'cost', 'gross_profit', 'expense',
                                   'gross_margins', 'tax', 'asset_impairment_loss', 'credit_impairment_loss',
@@ -134,44 +136,15 @@ class GenerateData:
         self.table_text = completion.choices[0].message.content
 
     def generate_text(self):
-        temp_text = 'Please randomly generate a piece of financial statement table snippet with '
-        for i in range(0, len(self.variable_list)):
-            temp_text += self.variable_list[i]
-            if i != len(self.variable_list) - 1:
-                temp_text += ', '
-
-        temp_text += ' from ' + str(self.time_begin) + ' to ' + str(
-            self.time_end) + ' in json format such as {\"xxxx\": {\"2017\": 190000\n   \"2018\": 295000\n}\n \"xxxx\": {\"2017\": 10000\n   \"2018\": 70000\n}\n }.'
-
-        completion = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "user",
-                 "content": temp_text}
-            ]
-        )
-        self.text = completion.choices[0].message
-        self.text_value = completion.choices[0].message.content
-        self.text_value = self.text_value.lower()
-
-        # 去除数字内部逗号
-        p = re.compile(r'\d,\d')
-        while 1:
-            m = p.search(self.text_value)
-            if m:
-                mm = m.group()
-                self.text_value = self.text_value.replace(mm, mm.replace(',', ''))
-            else:
-                break
-
-        self.text.content = self.text_value
-        self.text_value = json.loads(self.text_value)
-
+        
+        self.text = self.table_value_all
+        self.text_value = self.table_value
+        '''
         for j in range(0, len(self.variable_list)):
             a = self.text_value[str(self.variable_list[j])]
             for i in range(0, len(self.time_list)):
                 b = int(a[str(self.time_list[i])])
-                b = b + 1
+                b = b + 1'''
 
         temp_text = 'Please randomly generate a piece of financial statement text based on the above data, which must contain all the data.'
         completion = openai.ChatCompletion.create(
@@ -251,12 +224,19 @@ class GenerateData:
             try:
                 self.generate_time()
                 self.generate_table()
+                sleep(self.sleeptime)
                 self.get_table_text()
+                sleep(self.sleeptime)
                 self.generate_text()
+                sleep(self.sleeptime)
                 self.get_text_table()
+                sleep(self.sleeptime)
                 self.error_flag = False
                 break
-            except:
+            except (Exception, BaseException) as e:
+                exstr = traceback.format_exc()
+                #输出报错信息
+                print(exstr)
                 print('An error occurred,automatically retry after ' + str(self.sleeptime) + ' seconds')
                 sleep(self.sleeptime)
                 self.error_flag = True

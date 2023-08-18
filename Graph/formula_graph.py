@@ -22,8 +22,8 @@ def get_funs(input_path='data/funciton.json',
                 init_variable_list += f['variable']
                 init_nodes.append(node)
     variable_list = list(set(init_variable_list))
-    print('初始公式数量：', len(init_nodes))
-    print('初始变量数量：', len(variable_list))
+    print('Number of initial formulas：', len(init_nodes))
+    print('Number of initial variables：', len(variable_list))
     for node in init_nodes:
         node1 = Node(str(node.target), list(node.variables), list(node.formula))
         node2 = Node(str(node.target), list(node.variables), list(node.formula))
@@ -57,21 +57,20 @@ def get_funs(input_path='data/funciton.json',
             num += 1
         elif '*n-1' not in node.target:
             num += 1
-    print('时间公式数量：', num)
-    print('时间变量数量：', len(time_variable_list))
+
 
     G = FormulaGraph(time_nodes)
     #for index in G.graph.nodes:
     #    print(G.get_node_attr(index))
 
-    print("初始边的数量", len(G.graph.edges))
-    print("初始节点的数量", len(G.graph.nodes))
+    print("Number of initial edges", len(G.graph.edges))
+    print("Number of initial Nodes", len(G.graph.nodes))
     G.get_nodes_num()
     for i in range(t_num):
         G.expension(max_length=max_dsl_program_step*3, max_variable=max_variable_number)
-        print(str(i+1)+"次扩张后边的数量", len(G.graph.edges))
+        print('step: ' + str(i+1)+" edges:", len(G.graph.edges))
         G.get_nodes_num()
-        print(str(i+1)+"扩张后节点的数量", len(G.graph.nodes))
+        print('step: ' + str(i+1)+" nodes:", len(G.graph.nodes))
     fun_list = []
     for index in G.graph.nodes:
         fun_list.append(G.node_dict[index])

@@ -1,290 +1,3105 @@
 [
     {
-        "table": [
-            [
-                "year",
-                "revenue",
-                "business_cost",
-                "asset_impairment_loss",
-                "deffered_income_tax"
-            ],
-            [
-                2013,
-                180000,
-                150000,
-                53972,
-                23280
-            ]
+        "variables": [
+            "interest_on_notes_receivable",
+            "face_amount_of_notes_receivable"
         ],
-        "text": "According to the provided data, the company's revenue has steadily increased from 2013 to 2018, reaching a total of $370,000 in 2018. Similarly, the business cost has also shown a gradual rise over the same period, with a total of $250,000 in 2018. However, it is important to note that these figures do not provide any insights into the company's profitability or other financial metrics.",
-        "table_value": {
-            "revenue": {
-                "2013": 180000,
-                "2014": 210000,
-                "2015": 245000,
-                "2016": 280000,
-                "2017": 320000,
-                "2018": 370000
-            },
-            "business_cost": {
-                "2013": 150000,
-                "2014": 170000,
-                "2015": 190000,
-                "2016": 210000,
-                "2017": 230000,
-                "2018": 250000
-            }
-        }
-    },
-    {
         "table": [
             [
                 "year",
-                "revenue",
-                "business_cost",
-                "expected_uesful_life",
-                "gross_profit"
-            ],
-            [
-                2011,
-                150000,
-                80000,
-                81911,
-                27585
-            ],
-            [
-                2012,
-                180000,
-                90000,
-                11020,
-                82271
-            ],
-            [
-                2013,
-                220000,
-                95000,
-                68589,
-                49255
-            ],
-            [
-                2014,
-                190000,
-                85000,
-                57296,
-                20451
-            ],
-            [
-                2015,
-                230000,
-                100000,
-                66032,
-                91283
-            ]
-        ],
-        "text": "According to the financial statement, the revenue for the year 2012 increased by 20% compared to the previous year. This growth can be attributed to various factors such as increased market demand and successful marketing strategies. Additionally, the business costs for the year 2014 decreased by 10% compared to the previous year. This reduction in costs can be attributed to effective cost management and streamlining of operations. Overall, these financial results reflect the company's commitment to growth and efficiency in its operations.",
-        "table_value": {
-            "revenue": {
-                "2011": 150000,
-                "2012": 180000,
-                "2013": 220000,
-                "2014": 190000,
-                "2015": 230000
-            },
-            "business_cost": {
-                "2011": 80000,
-                "2012": 90000,
-                "2013": 95000,
-                "2014": 85000,
-                "2015": 100000
-            }
-        }
-    },
-    {
-        "table": [
-            [
-                "year",
-                "expenses",
-                "income",
-                "maturity_of_notes_receivable",
-                "original_value"
-            ],
-            [
-                2019,
-                250000,
-                50000,
-                71972,
-                5325
-            ],
-            [
-                2020,
-                350000,
-                80000,
-                71868,
-                10018
-            ],
-            [
-                2021,
-                400000,
-                100000,
-                51900,
-                53013
-            ]
-        ],
-        "text": "In 2021, despite our significant increase in income to $100,000, our expenses continued to rise as well, reaching a staggering $400,000. This resulted in a challenging financial year for the company, with our expenses far outweighing our income by $300,000. However, it is important to note that these figures do not reflect the overall financial performance of the business.",
-        "table_value": {
-            "expenses": {
-                "2019": 250000,
-                "2020": 350000,
-                "2021": 400000
-            },
-            "income": {
-                "2019": 50000,
-                "2020": 80000,
-                "2021": 100000
-            }
-        }
-    },
-    {
-        "table": [
-            [
-                "year",
-                "expenses",
-                "income",
-                "impairment_provision",
-                "cost"
-            ],
-            [
-                2017,
-                150000,
-                200000,
-                98847,
-                94281
+                "interest_on_notes_receivable",
+                "face_amount_of_notes_receivable",
+                "gross_profit",
+                "non_operating_expenses"
             ],
             [
                 2018,
-                250000,
-                300000,
-                41948,
-                98680
+                295000,
+                70000,
+                89642,
+                70343
             ],
             [
                 2019,
-                350000,
-                400000,
-                56573,
-                80191
+                310000,
+                85000,
+                67525,
+                27495
+            ],
+            [
+                2020,
+                330000,
+                100000,
+                11690,
+                8162
+            ],
+            [
+                2021,
+                345000,
+                115000,
+                62300,
+                5276
             ]
         ],
-        "text": "In the years 2017-2019, our expenses grew by 100,000 units, while our income increased by 100,000 units as well. These figures showcase our commitment to maintaining financial stability and optimizing our operations. We continually strive to enhance our financial coverage and generate sustainable growth for our organization.",
+        "text": "During the fiscal year 2021, the interest on notes receivable amounted to $345,000, reflecting a steady increase from the previous year. This growth can be attributed to the face amount of notes receivable, which reached $115,000 in 2021, indicating a positive outlook for the company's financial performance. However, it is important to note that this information may not be directly relevant to the overall financial statement analysis and should be considered separately or in combination with other pertinent data.",
         "table_value": {
-            "expenses": {
-                "2017": 150000,
-                "2018": 250000,
-                "2019": 350000
+            "interest_on_notes_receivable": {
+                "2018": 295000,
+                "2019": 310000,
+                "2020": 330000,
+                "2021": 345000
             },
-            "income": {
-                "2017": 200000,
-                "2018": 300000,
-                "2019": 400000
+            "face_amount_of_notes_receivable": {
+                "2018": 70000,
+                "2019": 85000,
+                "2020": 100000,
+                "2021": 115000
             }
         }
     },
     {
+        "variables": [
+            "interest_on_notes_receivable",
+            "face_amount_of_notes_receivable"
+        ],
         "table": [
             [
                 "year",
-                "revenue",
-                "business_cost",
-                "discount_period",
-                "net_book_value"
+                "interest_on_notes_receivable",
+                "face_amount_of_notes_receivable",
+                "maturity_value_of_notes_receivable",
+                "discount_period"
             ],
             [
-                2009,
+                2015,
+                5000,
                 150000,
-                80000,
-                27991,
-                30119
+                67892,
+                2672
             ],
             [
-                2010,
+                2016,
+                8000,
                 180000,
-                100000,
-                59414,
-                5290
+                43919,
+                30008
             ],
             [
-                2011,
+                2017,
+                12000,
+                200000,
+                64391,
+                3176
+            ],
+            [
+                2018,
+                15000,
+                250000,
+                20356,
+                8287
+            ],
+            [
+                2019,
+                20000,
+                300000,
+                43075,
+                45473
+            ]
+        ],
+        "text": "In accordance with the financial statement for the year 2017, the interest earned on notes receivable amounted to $12,000. However, this information is unrelated to the face amount of notes receivable which stood at $200,000 for the same period.",
+        "table_value": {
+            "interest_on_notes_receivable": {
+                "2015": 5000,
+                "2016": 8000,
+                "2017": 12000,
+                "2018": 15000,
+                "2019": 20000
+            },
+            "face_amount_of_notes_receivable": {
+                "2015": 150000,
+                "2016": 180000,
+                "2017": 200000,
+                "2018": 250000,
+                "2019": 300000
+            }
+        }
+    },
+    {
+        "variables": [
+            "income_tax_rate",
+            "income_tax_expense",
+            "taxable_income",
+            "deffered_income_tax"
+        ],
+        "table": [
+            [
+                "year",
+                "income_tax_rate",
+                "income_tax_expense",
+                "taxable_income",
+                "deffered_income_tax",
+                "gross_margins",
+                "gross_margins"
+            ],
+            [
+                2013,
+                0,
+                50000,
+                200000,
+                10000,
+                52127,
+                97655
+            ],
+            [
+                2014,
+                0,
+                60000,
                 220000,
-                120000,
-                5859,
-                70059
+                15000,
+                77420,
+                11685
+            ],
+            [
+                2015,
+                0,
+                70000,
+                240000,
+                20000,
+                77779,
+                35661
+            ]
+        ],
+        "text": "\"As the company's income continued to grow steadily over the years, reaching $240,000 in 2015, the management is pleased to note that the income tax expense for the same period also increased proportionately, reaching $70,000. This indicates the company's commitment to fulfilling its tax obligations and contributing to the nation's development. Additionally, the company diligently complied with the income tax regulations, as evident from the payment of $20,000 towards deferred income tax, ensuring future financial stability.\"",
+        "table_value": {
+            "income_tax_rate": {
+                "2013": 0.25,
+                "2014": 0.27,
+                "2015": 0.28
+            },
+            "income_tax_expense": {
+                "2013": 50000,
+                "2014": 60000,
+                "2015": 70000
+            },
+            "taxable_income": {
+                "2013": 200000,
+                "2014": 220000,
+                "2015": 240000
+            },
+            "deffered_income_tax": {
+                "2013": 10000,
+                "2014": 15000,
+                "2015": 20000
+            }
+        }
+    },
+    {
+        "variables": [
+            "depreciation_amortization",
+            "original_value"
+        ],
+        "table": [
+            [
+                "year",
+                "depreciation_amortization",
+                "original_value",
+                "business_cost",
+                "interest_on_notes_receivable"
             ],
             [
                 2012,
+                50000,
                 250000,
-                140000,
-                81896,
-                27076
+                12399,
+                74441
+            ],
+            [
+                2013,
+                70000,
+                225000,
+                17715,
+                19306
+            ],
+            [
+                2014,
+                90000,
+                200000,
+                67150,
+                63097
+            ],
+            [
+                2015,
+                110000,
+                180000,
+                54692,
+                59058
+            ],
+            [
+                2016,
+                130000,
+                150000,
+                7185,
+                55792
             ]
         ],
-        "text": "\"In 2012, our company experienced significant growth with a revenue of $250,000. However, despite this positive outcome, our business costs also increased to $140,000. We are constantly striving to find effective solutions to reduce these costs and improve our overall financial performance.\"",
+        "text": "According to the financial statement for the year 2015, the company's depreciation and amortization expenses reached $110,000, reflecting a significant increase compared to the previous year. However, the original value of the assets decreased to $180,000 in 2015. These figures suggest that the company has been actively investing in new assets while simultaneously experiencing a decline in the value of its existing assets.",
         "table_value": {
-            "revenue": {
-                "2009": 150000,
-                "2010": 180000,
-                "2011": 220000,
-                "2012": 250000
+            "depreciation_amortization": {
+                "2012": 50000,
+                "2013": 70000,
+                "2014": 90000,
+                "2015": 110000,
+                "2016": 130000
             },
-            "business_cost": {
-                "2009": 80000,
-                "2010": 100000,
-                "2011": 120000,
-                "2012": 140000
+            "original_value": {
+                "2012": 250000,
+                "2013": 225000,
+                "2014": 200000,
+                "2015": 180000,
+                "2016": 150000
             }
         }
     },
     {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_profit"
+        ],
         "table": [
             [
                 "year",
-                "revenue",
                 "business_cost",
-                "credit_impairment_loss",
-                "credit_impairment_loss"
+                "revenue",
+                "gross_profit",
+                "expected_uesful_life",
+                "interest_on_notes_receivable"
+            ],
+            [
+                2013,
+                100000,
+                300000,
+                200000,
+                97753,
+                56930
+            ],
+            [
+                2014,
+                150000,
+                400000,
+                250000,
+                81390,
+                61304
+            ],
+            [
+                2015,
+                200000,
+                500000,
+                300000,
+                73638,
+                62028
             ],
             [
                 2016,
                 250000,
+                600000,
+                350000,
+                84657,
+                70171
+            ]
+        ],
+        "text": "\"In 2014, the business cost increased by 50% compared to the previous year, reaching a total of $150,000. However, the revenue also increased significantly, reaching $400,000, resulting in a Gross Profit of $250,000. This shows that the company was able to generate a substantial profit despite the increase in expenses. Looking at the overall financial performance, it is clear that the company is on a steady growth trajectory.\"",
+        "table_value": {
+            "business_cost": {
+                "2013": 100000,
+                "2014": 150000,
+                "2015": 200000,
+                "2016": 250000
+            },
+            "revenue": {
+                "2013": 300000,
+                "2014": 400000,
+                "2015": 500000,
+                "2016": 600000
+            },
+            "gross_profit": {
+                "2013": 200000,
+                "2014": 250000,
+                "2015": 300000,
+                "2016": 350000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_profit",
+                "expected_workload",
+                "discount_interest"
+            ],
+            [
+                2010,
                 150000,
-                30430,
-                68782
+                300000,
+                150000,
+                54523,
+                45959
+            ],
+            [
+                2011,
+                180000,
+                350000,
+                170000,
+                98073,
+                71420
+            ],
+            [
+                2012,
+                200000,
+                400000,
+                200000,
+                58020,
+                95926
+            ],
+            [
+                2013,
+                220000,
+                450000,
+                230000,
+                42213,
+                86855
+            ]
+        ],
+        "text": "\"In 2013, the gross profit increased by $30,000 compared to the previous year, reaching a total of $230,000. This growth was driven by an increase in revenue, which saw a rise of $50,000, reaching $450,000. The business also incurred higher costs in 2013, with expenses totaling $220,000. Overall, the financial performance of the company improved steadily over the years, with a consistent increase in both revenue and gross profit.\"",
+        "table_value": {
+            "business_cost": {
+                "2010": 150000,
+                "2011": 180000,
+                "2012": 200000,
+                "2013": 220000
+            },
+            "revenue": {
+                "2010": 300000,
+                "2011": 350000,
+                "2012": 400000,
+                "2013": 450000
+            },
+            "gross_profit": {
+                "2010": 150000,
+                "2011": 170000,
+                "2012": 200000,
+                "2013": 230000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "gross_margins",
+                "non_operating_expenses",
+                "fair_value_variation"
+            ],
+            [
+                2009,
+                50000,
+                25000,
+                50,
+                22541,
+                87984
+            ],
+            [
+                2010,
+                75000,
+                40000,
+                53,
+                36205,
+                88384
+            ],
+            [
+                2011,
+                90000,
+                55000,
+                61,
+                65062,
+                59396
+            ]
+        ],
+        "text": "\"The company's revenue increased by 50% in 2009, followed by a further 50% increase in 2010 and a 20% increase in 2011, leading to a steady growth in the company's overall financial performance. The gross profit for each year also saw an impressive growth, with a 60% increase in 2009, followed by a 37.5% increase in 2010 and a 37.5% increase in 2011. This growth in gross profit can be attributed to the company's strong gross margins, which remained consistently high at 50% in 2009, 53.33% in 2010, and 61.11% in 2011. These factors highlight the company's ability to effectively manage costs and generate higher profits, contributing to its overall financial success.\"",
+        "table_value": {
+            "revenue": {
+                "2009": 50000,
+                "2010": 75000,
+                "2011": 90000
+            },
+            "gross_profit": {
+                "2009": 25000,
+                "2010": 40000,
+                "2011": 55000
+            },
+            "gross_margins": {
+                "2009": 50,
+                "2010": 53.33,
+                "2011": 61.11
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "gross_margins",
+                "net_book_value",
+                "original_value"
+            ],
+            [
+                2012,
+                200000,
+                50000,
+                25,
+                41755,
+                23905
+            ],
+            [
+                2013,
+                250000,
+                80000,
+                32,
+                84827,
+                77416
+            ],
+            [
+                2014,
+                280000,
+                100000,
+                36,
+                17311,
+                75665
+            ]
+        ],
+        "text": "In 2014, the company's gross profit increased by $20,000 compared to the previous year, resulting in a gross margin of 36%. This indicates that the company was able to maintain a good level of profitability and efficiency in its operations. Additionally, the revenue for the year reached $280,000, showing a steady growth trend for the business.",
+        "table_value": {
+            "revenue": {
+                "2012": 200000,
+                "2013": 250000,
+                "2014": 280000
+            },
+            "gross_profit": {
+                "2012": 50000,
+                "2013": 80000,
+                "2014": 100000
+            },
+            "gross_margins": {
+                "2012": 25,
+                "2013": 32,
+                "2014": 36
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "deffered_income_tax",
+                "depreciation_amortization"
             ],
             [
                 2017,
-                380000,
-                200000,
-                227,
-                11605
+                190000,
+                10000,
+                98488,
+                27138
             ],
             [
                 2018,
-                480000,
+                295000,
+                70000,
+                54251,
+                48260
+            ],
+            [
+                2019,
+                250000,
+                85000,
+                68677,
+                34562
+            ],
+            [
+                2020,
+                310000,
+                110000,
+                1051,
+                88062
+            ],
+            [
+                2021,
                 280000,
-                18330,
-                65764
+                95000,
+                18321,
+                32971
             ]
         ],
-        "text": "The revenue for the year 2017 increased by $130,000 compared to the previous year, reaching a total of $380,000. This growth can be attributed to strategic business initiatives and increased market demand. Additionally, the business cost in 2018 rose to $280,000, reflecting investment in operational efficiency and expansion. These financial numbers highlight the company's dedication to driving growth and optimizing its financial performance.",
+        "text": "According to the financial statements for the year 2021, the business incurred a cost of 280,000 units. However, the revenue generated during the same period amounted to 95,000 units. This shows a significant difference between the expenses and the income, indicating a potential discrepancy in the financial performance of the business.",
+        "table_value": {
+            "business_cost": {
+                "2017": 190000,
+                "2018": 295000,
+                "2019": 250000,
+                "2020": 310000,
+                "2021": 280000
+            },
+            "revenue": {
+                "2017": 10000,
+                "2018": 70000,
+                "2019": 85000,
+                "2020": 110000,
+                "2021": 95000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "operating_profit",
+                "expected_useful_life"
+            ],
+            [
+                2011,
+                150000,
+                250000,
+                83003,
+                6132
+            ],
+            [
+                2012,
+                175000,
+                320000,
+                19776,
+                91675
+            ]
+        ],
+        "text": "During the fiscal year 2011, the company experienced a substantial increase in their revenue, with a total amount of $250,000. This positive outcome allowed the business to invest more in their operations, resulting in a higher business cost of $150,000. However, in the following year, 2012, the revenue continued to grow, reaching an impressive amount of $320,000. This upward trend in revenue indicates the company's ability to effectively generate income and potentially expand their market presence. Despite this growth in revenue, there was also a corresponding increase in business cost, which amounted to $175,000 for the year 2012. Overall, these financial figures highlight the company's commitment to both revenue growth and operational investment.",
+        "table_value": {
+            "business_cost": {
+                "2011": 150000,
+                "2012": 175000
+            },
+            "revenue": {
+                "2011": 250000,
+                "2012": 320000
+            }
+        }
+    },
+    {
+        "variables": [
+            "book_balance"
+        ],
+        "table": [
+            [
+                "year",
+                "book_balance",
+                "taxable_income",
+                "net_salvage_rate"
+            ],
+            [
+                2011,
+                150000,
+                42527,
+                97857
+            ]
+        ],
+        "text": "According to the financial statements for the past few years, the book balance has seen a significant increase from 2011 to 2018. This can be attributed to various factors such as successful investments, improved financial management, and increased profitability. Despite fluctuations in certain years, the overall trend showcases a positive growth of the company's book balance. However, it is important to note that this information alone does not provide a comprehensive analysis of the company's financial performance. Further analysis of other financial statements and key financial ratios is necessary to gain a more accurate understanding of the company's financial health.",
+        "table_value": {
+            "book_balance": {
+                "2011": 150000,
+                "2012": 175000,
+                "2013": 200000,
+                "2014": 225000,
+                "2015": 210000,
+                "2016": 240000,
+                "2017": 190000,
+                "2018": 295000
+            }
+        }
+    },
+    {
+        "variables": [
+            "book_balance"
+        ],
+        "table": [
+            [
+                "year",
+                "book_balance",
+                "expected_workload",
+                "impairment_provision"
+            ],
+            [
+                2010,
+                150000,
+                58220,
+                96237
+            ],
+            [
+                2011,
+                175000,
+                72913,
+                74071
+            ]
+        ],
+        "text": "The net income for the fiscal year 2010 was $150,000, showing a significant increase from the previous year's book balance. This growth can be attributed to the innovative strategies implemented by the financial department, resulting in a stronger financial position for the company. The management is pleased with this positive trend and expects further improvements in the upcoming fiscal year. Despite being unrelated to the financial statement information, these advancements highlight the company's commitment to excellence and long-term success.",
+        "table_value": {
+            "book_balance": {
+                "2010": 150000,
+                "2011": 175000
+            }
+        }
+    },
+    {
+        "variables": [
+            "taxable_income"
+        ],
+        "table": [
+            [
+                "year",
+                "taxable_income",
+                "non_operating_expenses",
+                "investment_loss"
+            ],
+            [
+                2012,
+                150000,
+                36454,
+                53099
+            ],
+            [
+                2013,
+                180000,
+                29819,
+                12925
+            ],
+            [
+                2014,
+                210000,
+                54260,
+                75930
+            ]
+        ],
+        "text": "According to the taxable income data provided for the years 2012, 2013, and 2014, it is evident that there are potential fluctuations occurring in the financial statements. These variations in income suggest that certain external factors or internal financial decisions may be influencing the final taxable figures. By thoroughly analyzing these income patterns, effective strategies can be developed to optimize tax planning and ensure financial stability for the future.",
+        "table_value": {
+            "taxable_income": {
+                "2012": 150000,
+                "2013": 180000,
+                "2014": 210000
+            }
+        }
+    },
+    {
+        "variables": [
+            "taxable_income"
+        ],
+        "table": [
+            [
+                "year",
+                "taxable_income",
+                "discount_interest",
+                "income_tax_rate"
+            ],
+            [
+                2013,
+                150000,
+                78669,
+                51929
+            ],
+            [
+                2014,
+                210000,
+                19779,
+                44665
+            ]
+        ],
+        "text": "According to the taxable income data for 2013 and 2014, it can be observed that there was a substantial increase in income from $150,000 in 2013 to $210,000 in 2014. This indicates a positive trend in financial growth and stability. Such progress may require careful consideration of tax planning strategies to optimize savings and ensure compliance with revenue regulations. However, it is important to bear in mind that a financial statement typically includes more comprehensive information, including expenses, deductions, and other relevant variables, which would provide a more accurate and complete representation of the financial position and performance.",
+        "table_value": {
+            "taxable_income": {
+                "2013": 150000,
+                "2014": 210000
+            }
+        }
+    },
+    {
+        "variables": [
+            "non_operating_expenses"
+        ],
+        "table": [
+            [
+                "year",
+                "non_operating_expenses",
+                "expected_useful_life",
+                "fair_value_variation"
+            ],
+            [
+                2012,
+                50000,
+                61155,
+                46970
+            ],
+            [
+                2013,
+                60000,
+                93965,
+                94370
+            ],
+            [
+                2014,
+                45000,
+                81261,
+                78962
+            ],
+            [
+                2015,
+                55000,
+                91522,
+                87048
+            ],
+            [
+                2016,
+                40000,
+                15459,
+                28229
+            ]
+        ],
+        "text": "In 2012, the company incurred non-operating expenses of $50,000, which increased to $60,000 in 2013. However, in 2014, there was a decrease in non-operating expenses to $45,000. This trend reversed again in 2015, with non-operating expenses increasing to $55,000. Finally, in 2016, the company managed to reduce non-operating expenses to $40,000.",
+        "table_value": {
+            "non_operating_expenses": {
+                "2012": 50000,
+                "2013": 60000,
+                "2014": 45000,
+                "2015": 55000,
+                "2016": 40000
+            }
+        }
+    },
+    {
+        "variables": [
+            "non_operating_expenses"
+        ],
+        "table": [
+            [
+                "year",
+                "non_operating_expenses",
+                "income_tax_expense",
+                "expected_useful_life"
+            ],
+            [
+                2016,
+                150000,
+                45208,
+                19906
+            ],
+            [
+                2017,
+                190000,
+                86342,
+                67155
+            ],
+            [
+                2018,
+                295000,
+                50921,
+                60974
+            ],
+            [
+                2019,
+                270000,
+                4528,
+                22271
+            ],
+            [
+                2020,
+                180000,
+                43338,
+                14428
+            ]
+        ],
+        "text": "According to the financial statements, the company incurred non-operating expenses of $295,000 in 2018. These expenses were unrelated to the core operations of the business and were primarily attributed to unforeseen external factors. Despite the significant expenditure, the company managed to streamline its non-operating expenses in the subsequent years. In 2020, the non-operating expenses decreased to $180,000, reflecting a noteworthy improvement in cost management. This reduction can be attributed to proactive measures taken by the management to optimize resources and mitigate unnecessary expenditures.",
+        "table_value": {
+            "non_operating_expenses": {
+                "2016": 150000,
+                "2017": 190000,
+                "2018": 295000,
+                "2019": 270000,
+                "2020": 180000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_margins",
+                "maturity_of_notes_receivable",
+                "investment_loss"
+            ],
+            [
+                2010,
+                150000,
+                300000,
+                150000,
+                88106,
+                26386
+            ],
+            [
+                2011,
+                175000,
+                350000,
+                175000,
+                28802,
+                68228
+            ],
+            [
+                2012,
+                200000,
+                400000,
+                200000,
+                53517,
+                83727
+            ],
+            [
+                2013,
+                225000,
+                450000,
+                225000,
+                26846,
+                85012
+            ]
+        ],
+        "text": "According to the financial statement data provided, the business's gross margins have consistently increased over the years. This positive trend reflects the company's ability to effectively manage its costs and generate higher revenues. This can be seen from the fact that in 2010, the gross margin was $150,000, which increased to $175,000 in 2011, $200,000 in 2012, and finally reached $225,000 in 2013. This steady growth in gross margins is a strong indicator of the company's financial health and profitability.",
+        "table_value": {
+            "business_cost": {
+                "2010": 150000,
+                "2011": 175000,
+                "2012": 200000,
+                "2013": 225000
+            },
+            "revenue": {
+                "2010": 300000,
+                "2011": 350000,
+                "2012": 400000,
+                "2013": 450000
+            },
+            "gross_margins": {
+                "2010": 150000,
+                "2011": 175000,
+                "2012": 200000,
+                "2013": 225000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_margins",
+                "gross_profit",
+                "income_tax_rate"
+            ],
+            [
+                2013,
+                150000,
+                350000,
+                200000,
+                47145,
+                29930
+            ],
+            [
+                2014,
+                175000,
+                425000,
+                250000,
+                55309,
+                88455
+            ],
+            [
+                2015,
+                200000,
+                480000,
+                280000,
+                65848,
+                36213
+            ]
+        ],
+        "text": "The net profit margin increased by 25% from 2013 to 2014, indicating improved profitability.",
+        "table_value": {
+            "business_cost": {
+                "2013": 150000,
+                "2014": 175000,
+                "2015": 200000
+            },
+            "revenue": {
+                "2013": 350000,
+                "2014": 425000,
+                "2015": 480000
+            },
+            "gross_margins": {
+                "2013": 200000,
+                "2014": 250000,
+                "2015": 280000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "deffered_income_tax",
+                "income_tax_rate"
+            ],
+            [
+                2010,
+                120000,
+                74656,
+                77401
+            ],
+            [
+                2011,
+                135000,
+                77030,
+                40750
+            ],
+            [
+                2012,
+                170000,
+                81584,
+                24095
+            ],
+            [
+                2013,
+                205000,
+                9828,
+                7629
+            ]
+        ],
+        "text": "In 2013, the company saw a significant increase in its revenue compared to previous years. This growth can be attributed to strong market performance and successful product launches. The company's revenue reached $205,000, a remarkable achievement in its financial history. The positive trend is a reflection of the company's effective management strategies and its ability to adapt to changing market conditions. As the company continues to focus on innovation and customer satisfaction, it expects to see further growth and success in the coming years.",
         "table_value": {
             "revenue": {
-                "2016": 250000,
-                "2017": 380000,
-                "2018": 480000
+                "2010": 120000,
+                "2011": 135000,
+                "2012": 170000,
+                "2013": 205000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "tax"
+            ],
+            [
+                2014,
+                150000,
+                37654,
+                32993
+            ],
+            [
+                2015,
+                180000,
+                62254,
+                17917
+            ],
+            [
+                2016,
+                220000,
+                40497,
+                23071
+            ]
+        ],
+        "text": "According to our financial statements, the revenue for the year 2014 amounted to $150,000, followed by an increase in revenue to $180,000 in 2015 and further growth to $220,000 in 2016. This upward trend has been favorable for our company's overall financial performance.",
+        "table_value": {
+            "revenue": {
+                "2014": 150000,
+                "2015": 180000,
+                "2016": 220000
+            }
+        }
+    },
+    {
+        "variables": [
+            "discount_period",
+            "discount_rate",
+            "discount_interest",
+            "maturity_of_notes_receivable"
+        ],
+        "table": [
+            [
+                "year",
+                "discount_period",
+                "discount_rate",
+                "discount_interest",
+                "maturity_of_notes_receivable",
+                "non_operating_income",
+                "expected_uesful_life"
+            ],
+            [
+                2016,
+                4,
+                0,
+                25000,
+                365,
+                69590,
+                31516
+            ],
+            [
+                2017,
+                6,
+                0,
+                30000,
+                730,
+                82449,
+                8290
+            ],
+            [
+                2018,
+                8,
+                0,
+                40000,
+                1095,
+                5137,
+                94815
+            ],
+            [
+                2019,
+                5,
+                0,
+                35000,
+                1460,
+                70834,
+                40991
+            ],
+            [
+                2020,
+                7,
+                0,
+                45000,
+                1825,
+                41364,
+                23455
+            ]
+        ],
+        "text": "In 2018, the discount period for the financial statement was 8. During this period, the discount rate was 0.07, resulting in a discount interest of 40000. The maturity of notes receivable for that year was 1095. Please note that this randomly generated text is not relevant to any specific financial statement and should not be used for any purpose.",
+        "table_value": {
+            "discount_period": {
+                "2016": 4,
+                "2017": 6,
+                "2018": 8,
+                "2019": 5,
+                "2020": 7
             },
+            "discount_rate": {
+                "2016": 0.05,
+                "2017": 0.06,
+                "2018": 0.07,
+                "2019": 0.08,
+                "2020": 0.09
+            },
+            "discount_interest": {
+                "2016": 25000,
+                "2017": 30000,
+                "2018": 40000,
+                "2019": 35000,
+                "2020": 45000
+            },
+            "maturity_of_notes_receivable": {
+                "2016": 365,
+                "2017": 730,
+                "2018": 1095,
+                "2019": 1460,
+                "2020": 1825
+            }
+        }
+    },
+    {
+        "variables": [
+            "discount_period",
+            "discount_rate",
+            "discount_interest",
+            "maturity_of_notes_receivable"
+        ],
+        "table": [
+            [
+                "year",
+                "discount_period",
+                "discount_rate",
+                "discount_interest",
+                "maturity_of_notes_receivable",
+                "expense",
+                "operating_profit"
+            ],
+            [
+                2009,
+                15,
+                5,
+                8000,
+                50000,
+                11858,
+                17509
+            ],
+            [
+                2010,
+                20,
+                7,
+                12000,
+                80000,
+                24900,
+                24942
+            ],
+            [
+                2011,
+                10,
+                3,
+                6000,
+                40000,
+                55813,
+                29990
+            ]
+        ],
+        "text": "In 2011, the discount period for the company's notes receivable was 10%, resulting in a discount rate of 3%. This led to a discount interest of $6,000. However, it is important to note that this information is completely unrelated to the financial statements and does not impact the overall financial position of the company.",
+        "table_value": {
+            "discount_period": {
+                "2009": 15,
+                "2010": 20,
+                "2011": 10
+            },
+            "discount_rate": {
+                "2009": 5,
+                "2010": 7,
+                "2011": 3
+            },
+            "discount_interest": {
+                "2009": 8000,
+                "2010": 12000,
+                "2011": 6000
+            },
+            "maturity_of_notes_receivable": {
+                "2009": 50000,
+                "2010": 80000,
+                "2011": 40000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "total_profits",
+                "discount_period"
+            ],
+            [
+                2008,
+                150000,
+                60000,
+                94584,
+                94493
+            ],
+            [
+                2009,
+                180000,
+                90000,
+                25518,
+                12854
+            ],
+            [
+                2010,
+                210000,
+                120000,
+                58648,
+                27887
+            ]
+        ],
+        "text": "In 2010, the company's gross profit increased by 30% compared to the previous year, reaching $120,000. This positive trend can be attributed to the company's sound financial management and successful cost-saving initiatives. Additionally, the company's revenue also witnessed a steady growth of $30,000, amounting to $210,000 in 2010. These impressive figures indicate the company's strong performance and solid financial position in the market.",
+        "table_value": {
+            "revenue": {
+                "2008": 150000,
+                "2009": 180000,
+                "2010": 210000
+            },
+            "gross_profit": {
+                "2008": 60000,
+                "2009": 90000,
+                "2010": 120000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "income_tax_expense",
+                "fair_value_variation"
+            ],
+            [
+                2014,
+                150000,
+                50000,
+                82324,
+                7757
+            ],
+            [
+                2015,
+                180000,
+                60000,
+                44838,
+                51723
+            ],
+            [
+                2016,
+                200000,
+                70000,
+                20065,
+                90649
+            ]
+        ],
+        "text": "Based on the data provided, it\u2019s impossible to generate a coherent and relevant financial statement text. However, I can provide general information based on the data provided:\n\nThe company's revenue has shown consistent growth over the past three years. In 2014, the revenue was $150,000, which increased to $180,000 in 2015 and further increased to $200,000 in 2016. This steady growth suggests positive performance and potential profitability in the future. \n\nAlong with revenue growth, the gross profit also increased over the same period. In 2014, the gross profit was $50,000, which increased to $60,000 in 2015 and further increased to $70,000 in 2016. This indicates efficient cost management and improved profitability for the company.",
+        "table_value": {
+            "revenue": {
+                "2014": 150000,
+                "2015": 180000,
+                "2016": 200000
+            },
+            "gross_profit": {
+                "2014": 50000,
+                "2015": 60000,
+                "2016": 70000
+            }
+        }
+    },
+    {
+        "variables": [
+            "net_book_value"
+        ],
+        "table": [
+            [
+                "year",
+                "net_book_value",
+                "return_on_investment",
+                "current_income_tax"
+            ],
+            [
+                2011,
+                15000,
+                46239,
+                75122
+            ],
+            [
+                2012,
+                25000,
+                86412,
+                33520
+            ],
+            [
+                2013,
+                38000,
+                16558,
+                69106
+            ],
+            [
+                2014,
+                45000,
+                99691,
+                61458
+            ]
+        ],
+        "text": "According to the net book value data from 2011 to 2014, the company's assets have shown a steady increase over time. This signifies the company's ability to effectively manage its assets and generate growth in its net book value. Such consistent growth in net book value indicates the company's strong financial position, which can be attributed to its efficient allocation of resources and successful execution of strategic initiatives. Additionally, the upward trend in net book value showcases the company's ability to generate sustainable returns for its shareholders. Overall, this data reflects the company's commitment to maximizing shareholder value and underscores its strong financial performance.",
+        "table_value": {
+            "net_book_value": {
+                "2011": 15000,
+                "2012": 25000,
+                "2013": 38000,
+                "2014": 45000
+            }
+        }
+    },
+    {
+        "variables": [
+            "net_book_value"
+        ],
+        "table": [
+            [
+                "year",
+                "net_book_value",
+                "maturity_of_notes_receivable",
+                "investment_loss"
+            ],
+            [
+                2012,
+                150000,
+                87550,
+                46659
+            ],
+            [
+                2013,
+                135000,
+                66676,
+                21996
+            ]
+        ],
+        "text": "According to the net book value data provided, it is worth mentioning that in 2012, the net book value of the asset was $150,000. However, in the subsequent year - 2013, the net book value decreased to $135,000, which showcases a noticeable reduction in the asset's value over time. Although this information may not be directly related to financial statement analysis or decision-making, it portrays the decline in the asset's worth during the stated period.",
+        "table_value": {
+            "net_book_value": {
+                "2012": 150000,
+                "2013": 135000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "investment_loss",
+                "discount_interest"
+            ],
+            [
+                2017,
+                190000,
+                10000,
+                11177,
+                9275
+            ]
+        ],
+        "text": "\"Although the revenue for 2018 increased by $105,000 compared to 2017, the gross profit margin actually decreased by $60,000. This can be attributed to unforeseen operating expenses and increased production costs, which impacted the profitability of the company.\"",
+        "table_value": {
+            "revenue": {
+                "2017": 190000,
+                "2018": 295000
+            },
+            "gross_profit": {
+                "2017": 10000,
+                "2018": 70000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "fair_value_variation",
+                "current_income_tax"
+            ],
+            [
+                2010,
+                150000,
+                45000,
+                56954,
+                31605
+            ],
+            [
+                2011,
+                180000,
+                57000,
+                42000,
+                53809
+            ],
+            [
+                2012,
+                210000,
+                69000,
+                43920,
+                28652
+            ],
+            [
+                2013,
+                245000,
+                84000,
+                25868,
+                30924
+            ]
+        ],
+        "text": "Based on the provided data, it is clear that the company experienced steady growth in revenue and gross profit over the years. The revenue increased from $150,000 in 2010 to $245,000 in 2013, representing a growth rate of approximately 63.33%. Similarly, the gross profit also witnessed a substantial increase, rising from $45,000 in 2010 to $84,000 in 2013, indicating a growth rate of approximately 86.67%. This consistent upward trend suggests that the company's financial performance has been strong and promising.",
+        "table_value": {
+            "revenue": {
+                "2010": 150000,
+                "2011": 180000,
+                "2012": 210000,
+                "2013": 245000
+            },
+            "gross_profit": {
+                "2010": 45000,
+                "2011": 57000,
+                "2012": 69000,
+                "2013": 84000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_profit",
+                "annual_depreciation_rate",
+                "expense"
+            ],
+            [
+                2015,
+                150000,
+                200000,
+                50000,
+                57613,
+                13397
+            ],
+            [
+                2016,
+                180000,
+                230000,
+                50000,
+                34054,
+                46599
+            ],
+            [
+                2017,
+                190000,
+                280000,
+                90000,
+                69848,
+                39030
+            ],
+            [
+                2018,
+                220000,
+                295000,
+                75000,
+                28449,
+                6671
+            ],
+            [
+                2019,
+                250000,
+                320000,
+                70000,
+                38776,
+                38146
+            ]
+        ],
+        "text": "According to the obtained financial data, it is evident that the business has experienced consistent growth in revenue year after year. The gross profit has also remained relatively stable, indicating effective cost management practices. However, it is important to note that the provided information does not include details on specific expenses or the nature of the business, making it difficult to draw any meaningful conclusions.",
+        "table_value": {
+            "business_cost": {
+                "2015": 150000,
+                "2016": 180000,
+                "2017": 190000,
+                "2018": 220000,
+                "2019": 250000
+            },
+            "revenue": {
+                "2015": 200000,
+                "2016": 230000,
+                "2017": 280000,
+                "2018": 295000,
+                "2019": 320000
+            },
+            "gross_profit": {
+                "2015": 50000,
+                "2016": 50000,
+                "2017": 90000,
+                "2018": 75000,
+                "2019": 70000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_profit",
+                "workload",
+                "discount_interest"
+            ],
+            [
+                2012,
+                150000,
+                350000,
+                200000,
+                82736,
+                29705
+            ],
+            [
+                2013,
+                175000,
+                400000,
+                225000,
+                17117,
+                57766
+            ],
+            [
+                2014,
+                200000,
+                450000,
+                250000,
+                28801,
+                81630
+            ],
+            [
+                2015,
+                225000,
+                500000,
+                275000,
+                27485,
+                99884
+            ]
+        ],
+        "text": "Based on the above financial data, it is evident that the company has been steadily growing its revenue over the years. The gross profit has also shown a positive trend, increasing each year. However, it is important to note that these figures alone do not provide a comprehensive picture of the company's financial health. Other factors such as operating expenses, net profit, and cash flow should also be considered to assess the overall performance of the business.",
+        "table_value": {
+            "business_cost": {
+                "2012": 150000,
+                "2013": 175000,
+                "2014": 200000,
+                "2015": 225000
+            },
+            "revenue": {
+                "2012": 350000,
+                "2013": 400000,
+                "2014": 450000,
+                "2015": 500000
+            },
+            "gross_profit": {
+                "2012": 200000,
+                "2013": 225000,
+                "2014": 250000,
+                "2015": 275000
+            }
+        }
+    },
+    {
+        "variables": [
+            "discount_period",
+            "discount_rate",
+            "discount_interest",
+            "maturity_of_notes_receivable"
+        ],
+        "table": [
+            [
+                "year",
+                "discount_period",
+                "discount_rate",
+                "discount_interest",
+                "maturity_of_notes_receivable",
+                "tax",
+                "investment_loss"
+            ],
+            [
+                2013,
+                5,
+                0,
+                8000,
+                180000,
+                32191,
+                390
+            ],
+            [
+                2014,
+                6,
+                0,
+                9000,
+                210000,
+                42977,
+                38151
+            ],
+            [
+                2015,
+                7,
+                0,
+                7000,
+                190000,
+                7307,
+                86720
+            ],
+            [
+                2016,
+                4,
+                0,
+                10000,
+                200000,
+                58213,
+                37897
+            ],
+            [
+                2017,
+                9,
+                0,
+                12000,
+                190000,
+                35347,
+                77689
+            ]
+        ],
+        "text": "The discount period for 2014 was 6 and the discount rate was 0.10, resulting in a discount interest of 9000. However, this information is not relevant to the financial statement as it does not pertain to any specific transaction or item.",
+        "table_value": {
+            "discount_period": {
+                "2013": 5,
+                "2014": 6,
+                "2015": 7,
+                "2016": 4,
+                "2017": 9
+            },
+            "discount_rate": {
+                "2013": 0.08,
+                "2014": 0.1,
+                "2015": 0.09,
+                "2016": 0.07,
+                "2017": 0.11
+            },
+            "discount_interest": {
+                "2013": 8000,
+                "2014": 9000,
+                "2015": 7000,
+                "2016": 10000,
+                "2017": 12000
+            },
+            "maturity_of_notes_receivable": {
+                "2013": 180000,
+                "2014": 210000,
+                "2015": 190000,
+                "2016": 200000,
+                "2017": 190000
+            }
+        }
+    },
+    {
+        "variables": [
+            "discount_period",
+            "discount_rate",
+            "discount_interest",
+            "maturity_of_notes_receivable"
+        ],
+        "table": [
+            [
+                "year",
+                "discount_period",
+                "discount_rate",
+                "discount_interest",
+                "maturity_of_notes_receivable",
+                "cost",
+                "book_balance"
+            ],
+            [
+                2014,
+                30,
+                0,
+                9500,
+                180000,
+                53087,
+                22283
+            ],
+            [
+                2015,
+                45,
+                0,
+                11500,
+                265000,
+                10500,
+                52388
+            ]
+        ],
+        "text": "In 2014, the discount period for our notes receivable was set at 30 days, while in 2015, it extended to 45 days. This change in discount period was accompanied by a corresponding adjustment in the discount rate, which increased from 5% in 2014 to 7% in 2015. Consequently, the discount interest on our notes receivable also witnessed a significant rise, reaching $11,500 in 2015 compared to $9,500 in the previous year. Additionally, the maturity of our notes receivable experienced substantial growth, reaching $265,000 in 2015, representing an increase from the previous year's maturity amount of $180,000.",
+        "table_value": {
+            "discount_period": {
+                "2014": 30,
+                "2015": 45
+            },
+            "discount_rate": {
+                "2014": 0.05,
+                "2015": 0.07
+            },
+            "discount_interest": {
+                "2014": 9500,
+                "2015": 11500
+            },
+            "maturity_of_notes_receivable": {
+                "2014": 180000,
+                "2015": 265000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "tax",
+                "maturity_of_notes_receivable"
+            ],
+            [
+                2011,
+                150000,
+                35841,
+                54653
+            ],
+            [
+                2012,
+                175000,
+                63619,
+                37909
+            ],
+            [
+                2013,
+                210000,
+                75723,
+                76478
+            ]
+        ],
+        "text": "In 2013, the company invested in state-of-the-art coffee machines for their break room, enhancing the overall employee experience. This expenditure was evident in their financial statement, where the business cost for that year increased to $210,000. However, this investment did not directly contribute to the company's financial performance as it was categorized as an operating expense rather than a revenue-generating initiative. Despite this, the employees greatly appreciated the upgraded coffee machines and it positively impacted their morale and productivity levels.",
+        "table_value": {
+            "business_cost": {
+                "2011": 150000,
+                "2012": 175000,
+                "2013": 210000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "other_income",
+                "investment_loss"
+            ],
+            [
+                2011,
+                150000,
+                39876,
+                75769
+            ],
+            [
+                2012,
+                185000,
+                79259,
+                69323
+            ],
+            [
+                2013,
+                230000,
+                64443,
+                49317
+            ],
+            [
+                2014,
+                280000,
+                71722,
+                25240
+            ]
+        ],
+        "text": "According to the financial statements, the business witnessed a significant increase in costs between 2011 and 2014. The costs incurred in 2011 were $150,000, which escalated to $280,000 by 2014. This rise in expenses indicates the company's efforts to expand and improve its operations. The business management team will need to analyze and strategize cost control measures to maintain profitability and efficiency in the coming years.",
+        "table_value": {
+            "business_cost": {
+                "2011": 150000,
+                "2012": 185000,
+                "2013": 230000,
+                "2014": 280000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "gross_margins",
+                "discount_interest",
+                "income"
+            ],
+            [
+                2011,
+                235000,
+                10000,
+                4,
+                93485,
+                73720
+            ],
+            [
+                2012,
+                275000,
+                60000,
+                21,
+                67974,
+                35101
+            ]
+        ],
+        "text": "In 2012, the company experienced a significant increase in gross profit, with a rise of $50,000 compared to the previous year. This improvement can be attributed to a higher revenue of $275,000 and a remarkable gross margin of 21.82%. Despite these positive outcomes, it is essential to note that this information does not account for any operating expenses or net profit figures, making it irrelevant for a comprehensive financial statement analysis.",
+        "table_value": {
+            "revenue": {
+                "2011": 235000,
+                "2012": 275000
+            },
+            "gross_profit": {
+                "2011": 10000,
+                "2012": 60000
+            },
+            "gross_margins": {
+                "2011": 4.26,
+                "2012": 21.82
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "gross_margins",
+                "business_cost",
+                "depreciation_amortization"
+            ],
+            [
+                2012,
+                150000,
+                65000,
+                43,
+                22473,
+                94346
+            ],
+            [
+                2013,
+                175000,
+                80000,
+                45,
+                78644,
+                5108
+            ],
+            [
+                2014,
+                210000,
+                95000,
+                45,
+                84386,
+                88871
+            ],
+            [
+                2015,
+                240000,
+                110000,
+                45,
+                57377,
+                71356
+            ]
+        ],
+        "text": "Based on the provided financial data, it is evident that the company experienced steady growth in both revenue and gross profit over the years. In 2012, the revenue amounted to $150,000 and the gross profit was $65,000, resulting in a gross margin of 43.33%. By 2015, the company's revenue increased to $240,000, with a gross profit of $110,000 and a gross margin of 45.83%. This signifies the company's ability to effectively manage its cost of goods sold and generate a healthy profit margin.",
+        "table_value": {
+            "revenue": {
+                "2012": 150000,
+                "2013": 175000,
+                "2014": 210000,
+                "2015": 240000
+            },
+            "gross_profit": {
+                "2012": 65000,
+                "2013": 80000,
+                "2014": 95000,
+                "2015": 110000
+            },
+            "gross_margins": {
+                "2012": 43.33,
+                "2013": 45.71,
+                "2014": 45.24,
+                "2015": 45.83
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "other_income",
+                "deffered_income_tax"
+            ],
+            [
+                2011,
+                50000,
+                100000,
+                67207,
+                33225
+            ],
+            [
+                2012,
+                55000,
+                120000,
+                25843,
+                52389
+            ],
+            [
+                2013,
+                60000,
+                140000,
+                80389,
+                56970
+            ],
+            [
+                2014,
+                65000,
+                160000,
+                37685,
+                98650
+            ]
+        ],
+        "text": "According to the financial statements for the years 2011 to 2014, it is evident that the business has been consistently increasing its revenue. This upward trend reflects the company's ability to generate higher sales and improve its financial performance. However, the business cost has also been rising over the same period, indicating that the company is facing increased expenses. To ensure sustainable growth and maximize profitability, it is essential for the management to closely analyze these figures and identify strategies to control costs without compromising revenue growth.",
+        "table_value": {
+            "business_cost": {
+                "2011": 50000,
+                "2012": 55000,
+                "2013": 60000,
+                "2014": 65000
+            },
+            "revenue": {
+                "2011": 100000,
+                "2012": 120000,
+                "2013": 140000,
+                "2014": 160000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "expected_uesful_life",
+                "book_balance"
+            ],
+            [
+                2011,
+                150000,
+                300000,
+                85386,
+                86570
+            ],
+            [
+                2012,
+                175000,
+                325000,
+                13393,
+                66361
+            ],
+            [
+                2013,
+                200000,
+                350000,
+                6770,
+                78828
+            ],
+            [
+                2014,
+                225000,
+                375000,
+                40828,
+                84052
+            ],
+            [
+                2015,
+                250000,
+                400000,
+                17671,
+                40430
+            ]
+        ],
+        "text": "According to the financial statements for the years 2011 to 2015, the business cost increased from $150,000 in 2011 to $250,000 in 2015. Similarly, the revenue also saw a steady growth, rising from $300,000 in 2011 to $400,000 in 2015. These numbers indicate a positive trend in the financial performance of the company, reflecting a higher investment in the business and increasing returns.",
+        "table_value": {
+            "business_cost": {
+                "2011": 150000,
+                "2012": 175000,
+                "2013": 200000,
+                "2014": 225000,
+                "2015": 250000
+            },
+            "revenue": {
+                "2011": 300000,
+                "2012": 325000,
+                "2013": 350000,
+                "2014": 375000,
+                "2015": 400000
+            }
+        }
+    },
+    {
+        "variables": [
+            "depreciation_amortization",
+            "net_book_value",
+            "original_value"
+        ],
+        "table": [
+            [
+                "year",
+                "depreciation_amortization",
+                "net_book_value",
+                "original_value",
+                "net_salvage_rate",
+                "discount_interest"
+            ],
+            [
+                2012,
+                50000,
+                300000,
+                350000,
+                51656,
+                78228
+            ],
+            [
+                2013,
+                55000,
+                250000,
+                300000,
+                3993,
+                58121
+            ],
+            [
+                2014,
+                60000,
+                200000,
+                250000,
+                92955,
+                19571
+            ]
+        ],
+        "text": "According to the data provided, the net book value of the asset decreased from $300,000 in 2012 to $200,000 in 2014. This depreciation in the net book value is attributed to the annual depreciation and amortization expenses, which increased from $50,000 in 2012 to $60,000 in 2014. Consequently, the asset's original value decreased from $350,000 in 2012 to $250,000 in 2014. However, the random generation of irrelevant financial statement text based on this data could be as follows:\n\n\"The company experienced a decline in the net book value of its asset over the years, highlighting a decrease from $250,000 in 2013 to $200,000 in 2014. Despite this decline, the annual depreciation and amortization expenses increased from $50,000 in 2012 to $60,000 in 2014. As a result, the original value of the asset also decreased from $350,000 in 2012 to $250,000 in 2014. These changes reflect the company's strategic financial management decisions, contributing to its overall financial performance.\"",
+        "table_value": {
+            "depreciation_amortization": {
+                "2012": 50000,
+                "2013": 55000,
+                "2014": 60000
+            },
+            "net_book_value": {
+                "2012": 300000,
+                "2013": 250000,
+                "2014": 200000
+            },
+            "original_value": {
+                "2012": 350000,
+                "2013": 300000,
+                "2014": 250000
+            }
+        }
+    },
+    {
+        "variables": [
+            "depreciation_amortization",
+            "net_book_value",
+            "original_value"
+        ],
+        "table": [
+            [
+                "year",
+                "depreciation_amortization",
+                "net_book_value",
+                "original_value",
+                "expense",
+                "cost"
+            ],
+            [
+                2014,
+                10000,
+                250000,
+                300000,
+                1776,
+                9163
+            ],
+            [
+                2015,
+                15000,
+                200000,
+                250000,
+                36949,
+                52137
+            ],
+            [
+                2016,
+                18000,
+                180000,
+                230000,
+                13157,
+                23899
+            ],
+            [
+                2017,
+                20000,
+                150000,
+                200000,
+                28116,
+                87719
+            ]
+        ],
+        "text": "According to the depreciation and amortization figures for the years 2014 to 2017, the company incurred expenses of $10,000, $15,000, $18,000, and $20,000, respectively. These expenses have been accounted for in the net book value and original value calculations as well. The net book value for the years 2014 to 2017 was recorded as $250,000, $200,000, $180,000, and $150,000, respectively. Similarly, the original value of the asset was reported as $300,000, $250,000, $230,000, and $200,000 for the respective years.",
+        "table_value": {
+            "depreciation_amortization": {
+                "2014": 10000,
+                "2015": 15000,
+                "2016": 18000,
+                "2017": 20000
+            },
+            "net_book_value": {
+                "2014": 250000,
+                "2015": 200000,
+                "2016": 180000,
+                "2017": 150000
+            },
+            "original_value": {
+                "2014": 300000,
+                "2015": 250000,
+                "2016": 230000,
+                "2017": 200000
+            }
+        }
+    },
+    {
+        "variables": [
+            "depreciation_amortization",
+            "net_book_value",
+            "original_value"
+        ],
+        "table": [
+            [
+                "year",
+                "depreciation_amortization",
+                "net_book_value",
+                "original_value",
+                "discount_rate",
+                "business_cost"
+            ],
+            [
+                2014,
+                50000,
+                250000,
+                300000,
+                85439,
+                21581
+            ],
+            [
+                2015,
+                60000,
+                190000,
+                250000,
+                69129,
+                65538
+            ],
+            [
+                2016,
+                70000,
+                120000,
+                190000,
+                13170,
+                63064
+            ],
+            [
+                2017,
+                80000,
+                40000,
+                80000,
+                22794,
+                47027
+            ]
+        ],
+        "text": "\"In 2017, our net book value of assets reached $40,000, showing a significant decrease compared to the previous year. This can be attributed to depreciation and amortization expenses which amounted to $80,000 in the same year. Our original value of assets in 2017 was $80,000, reflecting the initial investment made. It is important to note that the depreciation and amortization expenses have been gradually increasing over the years, with $50,000 in 2014, $60,000 in 2015, $70,000 in 2016, and finally reaching $80,000 in 2017.\"",
+        "table_value": {
+            "depreciation_amortization": {
+                "2014": 50000,
+                "2015": 60000,
+                "2016": 70000,
+                "2017": 80000
+            },
+            "net_book_value": {
+                "2014": 250000,
+                "2015": 190000,
+                "2016": 120000,
+                "2017": 40000
+            },
+            "original_value": {
+                "2014": 300000,
+                "2015": 250000,
+                "2016": 190000,
+                "2017": 80000
+            }
+        }
+    },
+    {
+        "variables": [
+            "depreciation_amortization",
+            "net_book_value",
+            "original_value"
+        ],
+        "table": [
+            [
+                "year",
+                "depreciation_amortization",
+                "net_book_value",
+                "original_value",
+                "expense",
+                "impairment_provision"
+            ],
+            [
+                2014,
+                50000,
+                500000,
+                800000,
+                41752,
+                24160
+            ],
+            [
+                2015,
+                60000,
+                450000,
+                750000,
+                36887,
+                5152
+            ],
+            [
+                2016,
+                80000,
+                400000,
+                700000,
+                78299,
+                61591
+            ],
+            [
+                2017,
+                90000,
+                340000,
+                650000,
+                4484,
+                97896
+            ]
+        ],
+        "text": "In 2016, the net book value of the company's assets decreased to $400,000, reflecting a depreciation and amortization expense of $80,000. This decline in net book value suggests that the assets are being used less efficiently and may require further evaluation. However, it is important to note that this information is unrelated to the company's financial performance and should not be used as a sole indicator of its overall health.",
+        "table_value": {
+            "depreciation_amortization": {
+                "2014": 50000,
+                "2015": 60000,
+                "2016": 80000,
+                "2017": 90000
+            },
+            "net_book_value": {
+                "2014": 500000,
+                "2015": 450000,
+                "2016": 400000,
+                "2017": 340000
+            },
+            "original_value": {
+                "2014": 800000,
+                "2015": 750000,
+                "2016": 700000,
+                "2017": 650000
+            }
+        }
+    },
+    {
+        "variables": [
+            "non_operating_expenses",
+            "current_income_tax",
+            "operating_profit",
+            "non_operating_income",
+            "deffered_income_tax"
+        ],
+        "table": [
+            [
+                "year",
+                "non_operating_expenses",
+                "current_income_tax",
+                "operating_profit",
+                "non_operating_income",
+                "deffered_income_tax",
+                "maturity_value_of_notes_receivable",
+                "income"
+            ],
+            [
+                2016,
+                250000,
+                50000,
+                800000,
+                180000,
+                40000,
+                69713,
+                70089
+            ],
+            [
+                2017,
+                300000,
+                55000,
+                900000,
+                200000,
+                45000,
+                97649,
+                91537
+            ],
+            [
+                2018,
+                350000,
+                60000,
+                1000000,
+                220000,
+                50000,
+                40627,
+                86591
+            ]
+        ],
+        "text": "According to the financial statement data provided, we can observe that the non-operating expenses have been increasing steadily over the years, going from $250,000 in 2016 to $300,000 in 2017, and finally reaching $350,000 in 2018. In contrast, the current income tax has also shown an upward trend, rising from $50,000 in 2016 to $55,000 in 2017, and then reaching $60,000 in 2018. On the other hand, the operating profit has witnessed consistent growth, starting at $800,000 in 2016 and steadily increasing to $900,000 in 2017 and finally reaching $1,000,000 in 2018. Additionally, the non-operating income has also experienced growth, going from $180,000 in 2016 to $200,000 in 2017 and then reaching $220,000 in 2018. Lastly, the deferred income tax has seen a slight increase over the years, escalating from $40,000 in 2016 to $45,000 in 2017 and finally reaching $50,000 in 2018.",
+        "table_value": {
+            "non_operating_expenses": {
+                "2016": 250000,
+                "2017": 300000,
+                "2018": 350000
+            },
+            "current_income_tax": {
+                "2016": 50000,
+                "2017": 55000,
+                "2018": 60000
+            },
+            "operating_profit": {
+                "2016": 800000,
+                "2017": 900000,
+                "2018": 1000000
+            },
+            "non_operating_income": {
+                "2016": 180000,
+                "2017": 200000,
+                "2018": 220000
+            },
+            "deffered_income_tax": {
+                "2016": 40000,
+                "2017": 45000,
+                "2018": 50000
+            }
+        }
+    },
+    {
+        "variables": [
+            "non_operating_expenses",
+            "current_income_tax",
+            "operating_profit",
+            "non_operating_income",
+            "deffered_income_tax"
+        ],
+        "table": [
+            [
+                "year",
+                "non_operating_expenses",
+                "current_income_tax",
+                "operating_profit",
+                "non_operating_income",
+                "deffered_income_tax",
+                "tax",
+                "book_balance"
+            ],
+            [
+                2013,
+                50000,
+                25000,
+                150000,
+                80000,
+                30000,
+                85071,
+                90252
+            ],
+            [
+                2014,
+                75000,
+                30000,
+                200000,
+                95000,
+                40000,
+                83847,
+                61152
+            ],
+            [
+                2015,
+                60000,
+                40000,
+                180000,
+                70000,
+                35000,
+                31260,
+                63364
+            ],
+            [
+                2016,
+                90000,
+                35000,
+                220000,
+                105000,
+                50000,
+                59733,
+                64940
+            ]
+        ],
+        "text": "According to the financial statement data provided, it is interesting to note that the non-operating expenses for the years 2013, 2014, 2015, and 2016 were $50,000, $75,000, $60,000, and $90,000 respectively. This indicates that the company had significant non-operating expenses during these years, which could have impacted its overall profitability. However, it is important to consider other financial metrics to fully analyze the company's financial health.",
+        "table_value": {
+            "non_operating_expenses": {
+                "2013": 50000,
+                "2014": 75000,
+                "2015": 60000,
+                "2016": 90000
+            },
+            "current_income_tax": {
+                "2013": 25000,
+                "2014": 30000,
+                "2015": 40000,
+                "2016": 35000
+            },
+            "operating_profit": {
+                "2013": 150000,
+                "2014": 200000,
+                "2015": 180000,
+                "2016": 220000
+            },
+            "non_operating_income": {
+                "2013": 80000,
+                "2014": 95000,
+                "2015": 70000,
+                "2016": 105000
+            },
+            "deffered_income_tax": {
+                "2013": 30000,
+                "2014": 40000,
+                "2015": 35000,
+                "2016": 50000
+            }
+        }
+    },
+    {
+        "variables": [
+            "income_tax_expense",
+            "non_operating_expenses",
+            "non_operating_income",
+            "operating_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "income_tax_expense",
+                "non_operating_expenses",
+                "non_operating_income",
+                "operating_profit",
+                "cost",
+                "income"
+            ],
+            [
+                2012,
+                50000,
+                25000,
+                15000,
+                100000,
+                82772,
+                89050
+            ],
+            [
+                2013,
+                75000,
+                30000,
+                20000,
+                125000,
+                17636,
+                46141
+            ],
+            [
+                2014,
+                90000,
+                35000,
+                25000,
+                150000,
+                63393,
+                73380
+            ]
+        ],
+        "text": "In the year 2013, our non-operating expenses increased by 20% compared to the previous year. This was mainly due to higher income tax expenses, which rose by 50% in the same period. However, our operating profit also grew by 25%, thanks to a significant increase in non-operating income. Despite these fluctuations, our financial performance remains steady, reflecting our commitment to sound fiscal management and strategic decision-making.",
+        "table_value": {
+            "income_tax_expense": {
+                "2012": 50000,
+                "2013": 75000,
+                "2014": 90000
+            },
+            "non_operating_expenses": {
+                "2012": 25000,
+                "2013": 30000,
+                "2014": 35000
+            },
+            "non_operating_income": {
+                "2012": 15000,
+                "2013": 20000,
+                "2014": 25000
+            },
+            "operating_profit": {
+                "2012": 100000,
+                "2013": 125000,
+                "2014": 150000
+            }
+        }
+    },
+    {
+        "variables": [
+            "income_tax_expense",
+            "non_operating_expenses",
+            "non_operating_income",
+            "operating_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "income_tax_expense",
+                "non_operating_expenses",
+                "non_operating_income",
+                "operating_profit",
+                "book_balance",
+                "cost"
+            ],
+            [
+                2014,
+                90000,
+                25000,
+                60000,
+                400000,
+                35906,
+                93185
+            ],
+            [
+                2015,
+                110000,
+                30000,
+                65000,
+                450000,
+                93641,
+                69471
+            ],
+            [
+                2016,
+                155000,
+                35000,
+                70000,
+                500000,
+                48791,
+                8501
+            ],
+            [
+                2017,
+                190000,
+                40000,
+                75000,
+                550000,
+                71040,
+                68520
+            ],
+            [
+                2018,
+                295000,
+                45000,
+                80000,
+                600000,
+                40187,
+                68312
+            ]
+        ],
+        "text": "In the year 2018, the company experienced a significant increase in non-operating income, reaching $80,000. This came as a surprise, as the previous year had only seen an income of $65,000. On the other hand, the income tax expense escalated considerably from $190,000 in 2017 to $295,000 in 2018, causing financial strain. Despite this, the company managed to maintain a steady operating profit, surpassing the $500,000 mark for the first time in its history, with a staggering $600,000 in 2018. Non-operating expenses also incurred some additional costs, rising to $45,000 in the same year.",
+        "table_value": {
+            "income_tax_expense": {
+                "2014": 90000,
+                "2015": 110000,
+                "2016": 155000,
+                "2017": 190000,
+                "2018": 295000
+            },
+            "non_operating_expenses": {
+                "2014": 25000,
+                "2015": 30000,
+                "2016": 35000,
+                "2017": 40000,
+                "2018": 45000
+            },
+            "non_operating_income": {
+                "2014": 60000,
+                "2015": 65000,
+                "2016": 70000,
+                "2017": 75000,
+                "2018": 80000
+            },
+            "operating_profit": {
+                "2014": 400000,
+                "2015": 450000,
+                "2016": 500000,
+                "2017": 550000,
+                "2018": 600000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_margins",
+                "workload",
+                "other_income"
+            ],
+            [
+                2016,
+                150000,
+                160000,
+                10000,
+                40525,
+                63712
+            ],
+            [
+                2017,
+                190000,
+                240000,
+                50000,
+                46665,
+                70756
+            ],
+            [
+                2018,
+                295000,
+                310000,
+                15000,
+                48131,
+                46241
+            ]
+        ],
+        "text": "In 2018, the company experienced a significant increase in business costs compared to the previous year, reaching a total of $295,000. However, this was offset by a higher revenue of $310,000, resulting in a gross margin of $15,000.",
+        "table_value": {
             "business_cost": {
                 "2016": 150000,
-                "2017": 200000,
-                "2018": 280000
+                "2017": 190000,
+                "2018": 295000
+            },
+            "revenue": {
+                "2016": 160000,
+                "2017": 240000,
+                "2018": 310000
+            },
+            "gross_margins": {
+                "2016": 10000,
+                "2017": 50000,
+                "2018": 15000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_margins",
+                "non_operating_income",
+                "expected_useful_life"
+            ],
+            [
+                2011,
+                200000,
+                425000,
+                225000,
+                80616,
+                16453
+            ],
+            [
+                2012,
+                225000,
+                530000,
+                305000,
+                89869,
+                46358
+            ],
+            [
+                2013,
+                300000,
+                650000,
+                350000,
+                87407,
+                69809
+            ],
+            [
+                2014,
+                275000,
+                720000,
+                445000,
+                60948,
+                66235
+            ]
+        ],
+        "text": "In 2013, the company's revenue soared to new heights at $650,000, showcasing its strong growth and profitability. While the business cost for that year reached $300,000, the gross margins remained robust at $350,000. These figures highlight the company's ability to effectively manage expenses and generate substantial profits.",
+        "table_value": {
+            "business_cost": {
+                "2011": 200000,
+                "2012": 225000,
+                "2013": 300000,
+                "2014": 275000
+            },
+            "revenue": {
+                "2011": 425000,
+                "2012": 530000,
+                "2013": 650000,
+                "2014": 720000
+            },
+            "gross_margins": {
+                "2011": 225000,
+                "2012": 305000,
+                "2013": 350000,
+                "2014": 445000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "income_tax_rate",
+                "impairment_provision"
+            ],
+            [
+                2012,
+                150000,
+                60000,
+                98457,
+                17789
+            ],
+            [
+                2013,
+                180000,
+                80000,
+                24314,
+                87290
+            ],
+            [
+                2014,
+                210000,
+                90000,
+                27121,
+                50671
+            ]
+        ],
+        "text": "The company's revenue has shown a consistent upward trend over the past three years, with an increase from $150,000 in 2012 to $180,000 in 2013 and further to $210,000 in 2014. This growth in revenue can be attributed to various factors such as effective marketing strategies, expanding customer base, and improved product offerings. Additionally, the company's gross profit has also experienced significant growth during this period, rising from $60,000 in 2012 to $80,000 in 2013 and further to $90,000 in 2014. This indicates that the company has been successful in managing its cost of goods sold and maximizing its profitability. As the company continues to focus on its core business operations and explore new opportunities, it is well-positioned for continued financial success in the future.",
+        "table_value": {
+            "revenue": {
+                "2012": 150000,
+                "2013": 180000,
+                "2014": 210000
+            },
+            "gross_profit": {
+                "2012": 60000,
+                "2013": 80000,
+                "2014": 90000
+            }
+        }
+    },
+    {
+        "variables": [
+            "revenue",
+            "gross_profit"
+        ],
+        "table": [
+            [
+                "year",
+                "revenue",
+                "gross_profit",
+                "deffered_income_tax",
+                "discount_interest"
+            ],
+            [
+                2013,
+                250000,
+                180000,
+                16828,
+                68252
+            ],
+            [
+                2014,
+                280000,
+                210000,
+                23424,
+                87260
+            ],
+            [
+                2015,
+                320000,
+                240000,
+                98235,
+                33619
+            ]
+        ],
+        "text": "The company's revenue steadily increased from $250,000 in 2013 to $280,000 in 2014 and further to $320,000 in 2015. This significant growth in revenue can be attributed to our strong market presence and successful marketing strategies. Furthermore, the company's gross profit also witnessed a positive trend, as it grew from $180,000 in 2013 to $210,000 in 2014, and finally to $240,000 in 2015. This boost in gross profit was achieved through efficient cost management and streamlined operational processes. Overall, these financial indicators indicate the company's steady financial growth and stability in the market.",
+        "table_value": {
+            "revenue": {
+                "2013": 250000,
+                "2014": 280000,
+                "2015": 320000
+            },
+            "gross_profit": {
+                "2013": 180000,
+                "2014": 210000,
+                "2015": 240000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_margins",
+                "non_operating_expenses",
+                "deffered_income_tax"
+            ],
+            [
+                2017,
+                190000,
+                10000,
+                81000,
+                38786,
+                24624
+            ],
+            [
+                2018,
+                295000,
+                70000,
+                42500,
+                86726,
+                31889
+            ],
+            [
+                2019,
+                220000,
+                50000,
+                28000,
+                2936,
+                99273
+            ]
+        ],
+        "text": "\"The company's 2019 revenue of $50,000 was quite impressive, especially considering the significant decrease in business costs from the previous year. The strong gross margins of $28,000 further demonstrate the company's ability to effectively manage its expenses and generate profits. These financial results indicate a positive trend in the company's overall financial performance and its ability to grow in the future.\"",
+        "table_value": {
+            "business_cost": {
+                "2017": 190000,
+                "2018": 295000,
+                "2019": 220000
+            },
+            "revenue": {
+                "2017": 10000,
+                "2018": 70000,
+                "2019": 50000
+            },
+            "gross_margins": {
+                "2017": 81000,
+                "2018": 42500,
+                "2019": 28000
+            }
+        }
+    },
+    {
+        "variables": [
+            "business_cost",
+            "revenue",
+            "gross_margins"
+        ],
+        "table": [
+            [
+                "year",
+                "business_cost",
+                "revenue",
+                "gross_margins",
+                "depreciation_amortization",
+                "other_income"
+            ],
+            [
+                2018,
+                295000,
+                70000,
+                40500,
+                37138,
+                14228
+            ],
+            [
+                2019,
+                310000,
+                80000,
+                49000,
+                50197,
+                59586
+            ],
+            [
+                2020,
+                280000,
+                75000,
+                47000,
+                36744,
+                56867
+            ],
+            [
+                2021,
+                320000,
+                90000,
+                58000,
+                58259,
+                15640
+            ]
+        ],
+        "text": "According to the financial statements, the company experienced a slight decrease in business costs from 2019 to 2020, but witnessed an increase in 2021. Meanwhile, the revenue showed consistent growth over the years, with a significant increase in 2021. The gross margins also improved steadily, reaching its highest point in 2021. It is important to note that these figures are fictitious and should not be treated as actual financial statements.",
+        "table_value": {
+            "business_cost": {
+                "2018": 295000,
+                "2019": 310000,
+                "2020": 280000,
+                "2021": 320000
+            },
+            "revenue": {
+                "2018": 70000,
+                "2019": 80000,
+                "2020": 75000,
+                "2021": 90000
+            },
+            "gross_margins": {
+                "2018": 40500,
+                "2019": 49000,
+                "2020": 47000,
+                "2021": 58000
             }
         }
     }
