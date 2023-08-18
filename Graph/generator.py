@@ -260,9 +260,11 @@ def generate(fun_path='data/all_function.json',
     file_table_new = []
     k = 0
     for temp in tqdm(formula):
+        '''
         if k > 30:
             break
         k += 1
+        '''
         table_variables = temp['variables']
         print(table_variables)
         for i in range(0, len(table_variables)):
