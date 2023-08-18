@@ -299,7 +299,7 @@ def add_noise_in_table(table, num=2):
             if index == 0:
                 table[index].append(v[0])
             else:
-                value = random.randint(0,100000)
+                value = random.randint(0, 100000)
                 table[index].append(value)
     return table
 

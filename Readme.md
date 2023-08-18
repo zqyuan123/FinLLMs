@@ -1,6 +1,6 @@
 # FinLLMs
 ## Experiment
-For the experimental data used in the paper, see: 
+For the data used in the paper, see: 
 [data](https://anonymous.4open.science/r/FinLLMs-6596/experiment-data/Readme.md)
 
 The model used in the experiment:
@@ -8,7 +8,7 @@ The model used in the experiment:
 
 
 ## Installation
-On windows or Linux
+Windows or Linux
 ```
 python==3.10
 pip install networkx

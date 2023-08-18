@@ -1,13 +1,13 @@
 # Datasets
 The datasets used in the experiment.
 ## table 1
-Results of FinLLM on different models
+Results of FinLLM on different models.
 ```
 experiment-data/Data15000
 experiment-data/FinQA
 ```
 ## table 2
-Results of Datasets on LLMs
+Results of Datasets on LLMs.
 ```
 experiment-data/Data15000
 experiment-data/FinQA
