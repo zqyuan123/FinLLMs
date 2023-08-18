@@ -6,7 +6,7 @@ For the experimental data used in the paper, see:
 The model used in the experiment:
 [FinQA](https://github.com/czyssrs/FinQA), [DyRRen](https://github.com/nju-websoft/DyRRen)
 
-FinQA
+
 ## Installation
 On windows or Linux
 ```

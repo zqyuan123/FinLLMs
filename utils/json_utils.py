@@ -58,14 +58,21 @@ def check_gold(gold, program, question):
         nums = re.findall(r"\d+\.?\d*", gold[key])
         gold_nums += nums
     request_num = []
-    nums = re.findall(r"\d+\.?\d*", program)
+    # nums = re.findall(r"\d+\.?\d*", program)
+    nums = []
+    strlist = program.split(',')
+    for s in strlist:
+        if '(' in s:
+            nums_str = s.split('(')[1]
+        else:
+            nums_str = s.split(')')[0]
+        if '_' not in nums_str and '#' not in nums_str:
+            nums.append(nums_str.replace(' ',''))
     request_num += nums
     nums = re.findall(r"\d+\.?\d*", question)
     request_num += nums
     for num in request_num:
         if num not in gold_nums:
-            print(gold)
-            print(program)
             return False
     return True
 
@@ -99,6 +106,8 @@ def write_json(finqa_list: list[FinQA], path: str, blend: bool = True, old_path:
             if len(f.pre_text) == 0:
                 f.pre_text.append("Report")
             if not check_finqa_data(f):
+                continue
+            if not check_gold(f.qa.gold_inds, f.qa.program, f.qa.question):
                 continue
             table = []
             for r in f.table:

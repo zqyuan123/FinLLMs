@@ -297,10 +297,10 @@ def add_noise_in_table(table, num=2):
             v = random.sample(variable_list_all, 1)
         for (index, t) in enumerate(table):
             if index == 0:
-                t.append(v[0])
+                table[index].append(v[0])
             else:
                 value = random.randint(0,100000)
-                t.append(value)
+                table[index].append(value)
     return table
 
 

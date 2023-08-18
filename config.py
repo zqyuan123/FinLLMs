@@ -8,9 +8,9 @@ class params():
     proxies = {'http': "http://127.0.0.1:7890", 'https': "http://127.0.0.1:7890"}
     table_output_path = "data/table.json"
     text_output_path = "data/text.json"
-    api_key = "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"
+    api_key = ""
     output_path = 'data/table-text'
-    finqa_path = "D:\\code\\DataGenerate\\json"
+    finqa_path = "experiment-data/FinQA"
     max_gold = 5
     # Whether generated data is mixed with finqa data
     blend = False
