@@ -17,9 +17,9 @@ experiment-data/FinQA
 Results of FinLLM Datasets in different traversal steps. 
 ```
 experiment-data/Diff_Traversal_Num/T0
-experiment-data/Diff_Traversal_Num/TT1
-experiment-data/Diff_Traversal_Num/TT2
-experiment-data/Diff_Traversal_Num/TT3
+experiment-data/Diff_Traversal_Num/T1
+experiment-data/Diff_Traversal_Num/T2
+experiment-data/Diff_Traversal_Num/T3
 experiment-data/table-only
 experiment-data/text-only
 experiment-data/FinQA
