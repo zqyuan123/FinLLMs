@@ -1,7 +1,7 @@
 # FinLLMs
 ## Experiment
 For the data used in the paper, see: 
-[data](https://anonymous.4open.science/r/FinLLMs-6596/experiment-data/Readme.md)
+[data](https://github.com/zqyuan123/FinLLMs/tree/main/experiment-data)
 
 The model used in the experiment:
 [FinQA](https://github.com/czyssrs/FinQA), [DyRRen](https://github.com/nju-websoft/DyRRen)
