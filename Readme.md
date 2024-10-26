@@ -1,11 +1,13 @@
 # FinLLMs
 ## Experiment
 For the data used in the paper, see: 
-[data](https://github.com/zqyuan123/FinLLMs/tree/main/experiment-data)
+[Experiment Data](https://github.com/zqyuan123/FinLLMs/tree/main/experiment-data)
 
 The model used in the experiment:
 [FinQA](https://github.com/czyssrs/FinQA), [DyRRen](https://github.com/nju-websoft/DyRRen)
 
+For the display and description of the original data and generated data samples, see:
+[Data](https://github.com/zqyuan123/FinLLMs/tree/main/data/Readme.md)
 
 ## Installation
 Windows or Linux
@@ -47,3 +49,5 @@ After completing the api, path and other parameter settings, run the main functi
 cd FinLLMs
 python main.py
 ```
+
+
