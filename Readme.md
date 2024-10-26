@@ -43,8 +43,27 @@ start_time = 2010
 end_time = 2022
 generate_num_per_formula = 50
 ```
+## Formulas
+All formulas are stored in file [Formula](https://github.com/zqyuan123/FinLLMs/tree/main/data/all_function_indent.py). An example of a formula is provided below, which includes the following parts.
+```json
+[
+    {
+        "target": "profit*n",
+        "variables": [
+            "income*n",
+            "expenses*n"
+        ],
+        "formula": [
+            "subtract",
+            "income*n",
+            "expenses*n"
+        ]
+    }
+]
+```
+This JSON element represents that during a certain period,  `profit = income - expenses`
 ## RUN
-After completing the api, path and other parameter settings, run the main function directly
+After completing the api, path and other parameter settings, run the main function directly.
 ```commandline
 cd FinLLMs
 python main.py
